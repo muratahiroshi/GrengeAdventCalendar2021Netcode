@@ -7,7 +7,6 @@ public class MoveXFloor : NetworkBehaviour
     public int inverseCounter = 1500;
     private int _counter = 0;
     public float move = 0.002f;
-
     private float _direction;
 
     private void Start()

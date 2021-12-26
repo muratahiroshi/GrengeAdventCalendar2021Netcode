@@ -137,13 +137,13 @@ public class GameManager : MonoBehaviour
 
         // 動く障害物を生成
         SpawnMoveXFloorPrefab(
-            new Vector3(-2.5f, 1.0f, 10.0f),
+            new Vector3(-2.5f, 1.0f - 0.75f, 10.0f),
             new Vector3(1.0f, 1.0f, 1.0f),
             90,
             0.05f
         );
         SpawnMoveXFloorPrefab(
-            new Vector3(1.5f, 1.0f, 9.0f),
+            new Vector3(1.5f, 1.0f - 0.75f, 9.0f),
             new Vector3(1.0f, 1.0f, 1.0f),
             250,
             0.01f,
@@ -151,21 +151,21 @@ public class GameManager : MonoBehaviour
         );
 
         SpawnMoveXFloorPrefab(
-            new Vector3(-2.5f, 1.0f, 6.5f),
+            new Vector3(-2.5f, 1.0f - 0.55f, 6.5f),
             new Vector3(1.0f, 1.0f, 1.0f),
             250,
             0.01f
         );
 
         SpawnMoveXFloorPrefab(
-            new Vector3(1.5f, 1.0f, 4.5f),
+            new Vector3(1.5f, 1.0f - 0.25f, 4.5f),
             new Vector3(1.0f, 1.0f, 1.0f),
             250,
             0.016f
         );
 
         SpawnMoveXFloorPrefab(
-            new Vector3(-4.0f, 1.0f, 2.5f),
+            new Vector3(-4.0f, 1.0f - 0.25f, 2.5f),
             new Vector3(1.0f, 1.0f, 1.0f),
             100,
             0.04f
